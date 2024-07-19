@@ -1,4 +1,4 @@
-# Hackathon - Top 3
+# Hackathon - Random Movie
 
 Dieses Projekt ist Aufgabe 3 aus dem Hackathon von [Kevin Chromik](https://www.youtube.com/@KevinChromik).
 
@@ -11,14 +11,18 @@ verwenden.
 
 ## Funktion
 
-Der Nutzer wählt eine Kategorie aus und 
-es werden die Top 3 Filme ausgegeben mit der
-höchsten Bewertung.
-Mir geht es in dem Projekt nicht um den 
+Der Nutzer drückt den button und es werden random Filme angezeigt.
+Die Filme werden random nach Jahr ausgewählt.
+Es kann vorkommen, dass "Error loading movie" angezeigt wird, 
+wenn kein Film gefunden wurde. Ein Lösung hierfür wäre, diesen Case
+abzufangen, indem die Funktion nochmal aufgerufen wird, bis ein Ergebnis vorliegt.
+Mir geht es in dem Projekt aber nicht um den 
 größten Funktionsumfang, sondern um 
-ein minimalistisches und ästhetisches Design.
+ein minimalistisches und ästhetisches Design. Anpassung können im nachhinein
+auch noch gemacht werden.
 
 ## Tools
 - Plain HTML,CSS und JavaScript
 - Design wurde mit [Canva](https://www.canva.com/de_de/) erstellt
 - Projetkmanagment mit [ToDoist](https://todoist.com/de)
+- Font ist von [Fontshare](https://www.fontshare.com/)
