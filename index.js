@@ -15,7 +15,7 @@ async function fetchData() {
     const randomYear =
       Math.floor(Math.random() * (currentYear - 1900 + 1)) + 1900;
     const url =
-      "http://www.omdbapi.com/?apikey=" +
+      "https//www.omdbapi.com/?apikey=" +
       apiKey +
       "&s=movie&y=" +
       randomYear +
