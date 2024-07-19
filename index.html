@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Movie</title>
     <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=stardom@400&f[]=satoshi@300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <h1 class="heading">Random Movie</h1>
-    <button id="random">Click Me</button>
-    <div id="results">
-      <div id="movie-1"></div>
-      <div id="movie-2"></div>
-      <div id="movie-3"></div>
-      <div id="error"></div>
+    <div id="button">
+      <button id="random">Click Me</button>
     </div>
+    <div id="results">
+      <div id="movie-1" class="movie-item"></div>
+      <div id="movie-2" class="movie-item"></div>
+      <div id="movie-3" class="movie-item"></div>
+    </div>
+    <div id="error"></div>
     <script src="./index.js"></script>
   </body>
 </html>

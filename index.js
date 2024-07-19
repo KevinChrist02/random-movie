@@ -37,7 +37,7 @@ async function fetchData() {
           <p>${randomMovie.Year}</p>`;
       } else {
         console.log(data.Error);
-        movieElements[i].innerHTML = "<p>Error loading movie</p>";
+        movieElements[i].innerHTML = "<h3>Error loading movie</h3>";
       }
     } catch (error) {
       console.error(`Error fetching the data: ${error}`);
